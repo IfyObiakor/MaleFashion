@@ -13,7 +13,7 @@ function Slider() {
        <div className="best_seller">
            <h2 className='animate__animated animate__heartBeat'>Best Sellers</h2>
             <div className="slider">
-            <div className="slider_card">
+            <div className="slider_card shopCards_content">
                 <div className="slider_image">
                     <img src={product1} alt="" />
                 </div>
@@ -21,7 +21,7 @@ function Slider() {
                 <Link href="#">+ Add To Cart</Link>
                 <h5>$43.48</h5>
             </div>
-            <div className="slider_card">
+            <div className="slider_card shopCards_content">
                 <div className="slider_image">
                     <img src={product2} alt="" />
                 </div>
@@ -29,7 +29,7 @@ function Slider() {
                 <Link href="#">+ Add To Cart</Link>
                 <h5>$43.48</h5>
             </div>
-            <div className="slider_card">
+            <div className="slider_card shopCards_content">
                 <div className="slider_image">
                     <img src={product3} alt="" />
                 </div>
@@ -37,7 +37,7 @@ function Slider() {
                 <Link href="#">+ Add To Cart</Link>
                 <h5>$43.48</h5>
             </div>
-            <div className="slider_card">
+            <div className="slider_card shopCards_content">
                 <div className="slider_image">
                     <img src={product4} alt="" />
                 </div>
@@ -45,7 +45,7 @@ function Slider() {
                 <Link href="#">+ Add To Cart</Link>
                 <h5>$43.48</h5>
             </div>
-            <div className="slider_card">
+            <div className="slider_card shopCards_content">
                 <div className="slider_image">
                     <img src={product5} alt="" />
                 </div>
@@ -53,7 +53,7 @@ function Slider() {
                 <Link href="#">+ Add To Cart</Link>
                 <h5>$43.48</h5>
             </div>
-            <div className="slider_card">
+            <div className="slider_card shopCards_content">
                 <div className="slider_image">
                     <img src={product6} alt="" />
                 </div>

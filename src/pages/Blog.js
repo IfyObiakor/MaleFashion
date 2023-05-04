@@ -1,7 +1,4 @@
 
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Header from "./Header";
 import {Link} from "react-router-dom"
 import blogpic1 from "../images/blog/blog-1.jpg"
 import blogpic2 from "../images/blog/blog-2.jpg"
@@ -17,8 +14,6 @@ import blogbanner from "../images/blog/blog-banner.jpg"
 function Blog() {
     return (
         <div>
-            <Header />
-            <Navbar />
             <div className="container-fluid blog_banner"
                 style={{backgroundImage: `url(${blogbanner})`, width: "100%", height: "60vh" , backgroundSize: "cover"}}>
                 <div className="row">
@@ -35,7 +30,7 @@ function Blog() {
                         <img src={blogpic1} className="card-img-top" alt="..." />
                         <div className="card-body">
                             <span><i className="fa-solid fa-calendar-days"></i>16 July 2023</span>
-                            <h5 className="card-title">What Curling Irons Are The Best Ones</h5>
+                            <h5 className="card-title">What Curling Irons Are The Best</h5>
                             <Link href="#">Read More</Link>
                         </div>
                     </div>
@@ -114,8 +109,6 @@ function Blog() {
                 </div>
             </div>
           </div>
-
-            <Footer />
         </div>
     );
 }

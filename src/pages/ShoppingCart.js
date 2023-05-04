@@ -1,9 +1,6 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
-import Header from './Header';
-import Navbar from './Navbar';
 import shopingCartPic1 from "../images/shopping-cart/cart-1.jpg"
 import shopingCartPic2 from "../images/shopping-cart/cart-2.jpg"
 import shopingCartPic3 from "../images/shopping-cart/cart-3.jpg"
@@ -11,11 +8,10 @@ import shopingCartPic4 from "../images/shopping-cart/cart-4.jpg"
 
 function ShoppingCart() {
 
+    const [cart , setCart] = useState("")
 
     return (
         <div>
-            <Header />
-            <Navbar />
 
             <div className="shop_breadcrumb">
                 <h4>Shop</h4>
@@ -155,8 +151,6 @@ function ShoppingCart() {
                     </div>
                 </div>
             </section>
-
-            <Footer />
         </div>
     )
 }

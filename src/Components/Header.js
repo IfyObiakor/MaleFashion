@@ -9,7 +9,7 @@ function Header() {
                 </div>
 
                 <div className="header_links">
-                    <Link href="#">SIGN IN</Link>
+                    <Link to="/signin" href="#">SIGN IN</Link>
                     <Link href="#">FAQs</Link>
                     <div>
                     <select style= {{backgroundColor: "black",  color: "whitesmoke", border:"0" }}>

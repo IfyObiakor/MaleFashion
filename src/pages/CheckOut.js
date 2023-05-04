@@ -2,16 +2,12 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
-import Header from './Header';
-import Navbar from './Navbar';
+
 
 function CheckOut() {
 
     return (
         <div>
-            <Header />
-            <Navbar />
 
             <div className="shop_breadcrumb">
                 <h4>Shop</h4>
@@ -120,8 +116,6 @@ function CheckOut() {
                 </div>
 
             </div>
-
-            <Footer />
         </div>
     )
 }

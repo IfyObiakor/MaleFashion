@@ -1,7 +1,11 @@
+import { useState } from "react";
 import { Link } from "react-router-dom"
 import logo from "../images/logo.png"
 
 function Navbar() {
+
+    const [cart , setCart] = useState("")
+
     return (
         <div>
             <nav className=" navbar navbar-expand-lg navbar-expand-md bg-light">
@@ -50,7 +54,9 @@ function Navbar() {
                             <div className="col-lg-3 col-md-3 navbar_icons d-flex">
                                 <Link href="#"><i className="fa-sharp fa-solid fa-magnifying-glass"></i></Link>
                                 <Link href="#"><i className="fa-regular fa-heart"></i></Link>
-                                <Link to="/shoppingcart" href="/shoppingcart"><i className="fa-solid fa-cart-shopping"></i></Link>
+                                <Link to="/shoppingcart" href="/shoppingcart"><i className="fa-solid fa-cart-shopping"></i>
+                                <span>{cart}</span>
+                                </Link>
                                 <div className="price">$0.00</div>
                             </div>
                         </div>

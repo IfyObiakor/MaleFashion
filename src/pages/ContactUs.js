@@ -1,6 +1,4 @@
-import Header from "./Header";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+
 import React from "react";
 
 function ContactUs() {
@@ -8,12 +6,9 @@ function ContactUs() {
     
     return (
         <div>
-            <Header />
-            <Navbar />
             <div className="mapouter">
                 <div className="gmap_canvas">
-                    <iframe className="gmap_iframe" frameBorder="0" scrolling="no" marginHeight="0"
-                        marginWidth="0"
+                    <iframe className="gmap_iframe"
                         src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=ikeja, nigeria&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" title="myFrame"></iframe>
                     <a href="https://formatjson.org/">format json</a>
                 </div>
@@ -57,7 +52,6 @@ function ContactUs() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }

@@ -71,4 +71,4 @@ function Countdown() {
     )
 }
 
-export default Countdown
+export default Countdown;

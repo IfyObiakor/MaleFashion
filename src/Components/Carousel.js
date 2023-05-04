@@ -15,7 +15,7 @@ function Carousel() {
                             <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to
                                 exceptional quality.</p>
 
-                            <Link href="#">
+                            <Link to="/shop" href="">
                                 <button type="button" className="btn btn-dark btn-lg p-3 mb-5">SHOP NOW &nbsp;
                                     <i className="fa-solid fa-arrow-right-long"></i>
                                 </button></Link>

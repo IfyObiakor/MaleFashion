@@ -1,9 +1,6 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
-import Header from './Header';
-import Navbar from './Navbar';
 import aboutbannerimage from "../images/about/about-us.jpg"
 import abouttestimony from "../images/about/testimonial-author.jpg"
 import team1 from "../images/about/team-1.jpg"
@@ -23,8 +20,6 @@ import client8 from "../images/clients/client-8.png"
 function AboutUs() {
     return (
         <div>
-            <Header />
-            <Navbar />
 
             <div className="shop_breadcrumb">
                 <h4>About Us</h4>
@@ -166,8 +161,6 @@ function AboutUs() {
                 </div>
 
             </div>
-
-            <Footer />
         </div>
     )
 }
